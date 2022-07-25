@@ -1,0 +1,36 @@
+:root{
+
+    --regatto-font:'Regatto', RegattoBold;
+    --regular-font:'regular' ,URWClassicoW01-Regular;
+    --lora-font:'lora', Lora-Regular;
+    --font-size-14px: 14px;
+    --font-size-26px: 26px;
+    --font-size-38px: 38px;
+    
+  }
+
+.fs-14-px {
+    font-size: var(--font-size-14px)
+}
+.fs-26-px {
+    font-size: var(--font-size-26px)
+}
+
+
+.fs-38-px {
+    font-size: var(--font-size-38px)
+}
+
+/* home page */
+  .text-1{
+    width: 179px;
+    height: 102px;
+    margin: 23px 217px 6px 140px;
+    font-family: var(--regatto-font);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+
+
