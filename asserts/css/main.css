@@ -1,12 +1,11 @@
 :root{
 
     --regatto-font:'Regatto', RegattoBold;
-    --regular-font:'regular' ,URWClassicoW01-Regular;
+    --urw-font:'regular' ,URWClassicoW01-Regular;
     --lora-font:'lora', Lora-Regular;
     --font-size-14px: 14px;
     --font-size-26px: 26px;
     --font-size-38px: 38px;
-    
   }
 
 .fs-14-px {
@@ -16,10 +15,27 @@
     font-size: var(--font-size-26px)
 }
 
-
 .fs-38-px {
     font-size: var(--font-size-38px)
 }
+.lora-fonts {
+    font-family: var(--lora-font);
+  }
+  
+
+.urw-fonts {
+    font-family: var(--urw-font);
+  }
+  
+.regatto-fonts {
+    font-family: var(--regatto-font);
+  }
+
+  .topics {
+    font-size: var(--font-size-38px);
+    font-family: var(--regatto-font);
+  }
+  
 
 /* home page */
   .text-1{
