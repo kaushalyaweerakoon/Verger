@@ -1,5 +1,4 @@
 :root{
-
     --regatto-font:'Regatto', RegattoBold;
     --urw-font:'regular' ,URWClassicoW01-Regular;
     --lora-font:'lora', Lora-Regular;
@@ -41,7 +40,6 @@
   font-size: var(--font-size-40px)
 }
 
-
 /* fonts */
 .lora-font {
     font-family: var(--lora-font);
@@ -59,17 +57,10 @@
     font-family: var(--Josefin-font);
   }
 
-  /* topics */
-  .topics {
-    font-size: var(--font-size-38px);
-    font-family: var(--regatto-font);
-  }
-  
-
 /* home page */
 /* right corner border */
   .yellow-border{
-    border-left: 5px solid yellow;
+    border-left: 5px solid  #fcb040;
 }
 
 
